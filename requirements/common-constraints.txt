@@ -27,6 +27,8 @@ attrs==25.4.0
     #   aiohttp
     #   jsonschema
     #   referencing
+audioop-lts==0.2.2
+    # via -r requirements/requirements.in
 backoff==2.2.1
     # via
     #   -r requirements/requirements.in
@@ -125,7 +127,7 @@ gitpython==3.1.45
     #   streamlit
 google-ai-generativelanguage==0.6.15
     # via google-generativeai
-google-api-core[grpc]==2.28.1
+google-api-core[grpc]==2.25.2
     # via
     #   google-ai-generativelanguage
     #   google-api-python-client
@@ -286,7 +288,7 @@ nltk==3.9.2
     # via llama-index-core
 nodeenv==1.9.1
     # via pre-commit
-numpy==1.26.4
+numpy==2.3.5
     # via
     #   -r requirements/requirements-help.in
     #   contourpy
@@ -299,6 +301,45 @@ numpy==1.26.4
     #   soundfile
     #   streamlit
     #   transformers
+nvidia-cublas-cu12==12.8.4.1
+    # via
+    #   nvidia-cudnn-cu12
+    #   nvidia-cusolver-cu12
+    #   torch
+nvidia-cuda-cupti-cu12==12.8.90
+    # via torch
+nvidia-cuda-nvrtc-cu12==12.8.93
+    # via torch
+nvidia-cuda-runtime-cu12==12.8.90
+    # via torch
+nvidia-cudnn-cu12==9.10.2.21
+    # via torch
+nvidia-cufft-cu12==11.3.3.83
+    # via torch
+nvidia-cufile-cu12==1.13.1.3
+    # via torch
+nvidia-curand-cu12==10.3.9.90
+    # via torch
+nvidia-cusolver-cu12==11.7.3.90
+    # via torch
+nvidia-cusparse-cu12==12.5.8.93
+    # via
+    #   nvidia-cusolver-cu12
+    #   torch
+nvidia-cusparselt-cu12==0.7.1
+    # via torch
+nvidia-nccl-cu12==2.27.5
+    # via torch
+nvidia-nvjitlink-cu12==12.8.93
+    # via
+    #   nvidia-cufft-cu12
+    #   nvidia-cusolver-cu12
+    #   nvidia-cusparse-cu12
+    #   torch
+nvidia-nvshmem-cu12==3.3.20
+    # via torch
+nvidia-nvtx-cu12==12.8.90
+    # via torch
 openai==2.8.1
     # via litellm
 oslex==0.1.3
@@ -477,7 +518,7 @@ safetensors==0.7.0
     # via transformers
 scikit-learn==1.7.2
     # via sentence-transformers
-scipy==1.15.3
+scipy==1.16.3
     # via
     #   -r requirements/requirements.in
     #   scikit-learn
@@ -560,14 +601,13 @@ tree-sitter-language-pack==0.11.0
     # via grep-ast
 tree-sitter-yaml==0.7.2
     # via tree-sitter-language-pack
+triton==3.5.1
+    # via torch
 typer==0.20.0
     # via -r requirements/requirements-dev.in
 typing-extensions==4.15.0
     # via
-    #   aiosignal
     #   aiosqlite
-    #   altair
-    #   anyio
     #   beautifulsoup4
     #   google-generativeai
     #   grpcio
@@ -579,7 +619,6 @@ typing-extensions==4.15.0
     #   pydantic
     #   pydantic-core
     #   pyee
-    #   referencing
     #   sentence-transformers
     #   sqlalchemy
     #   streamlit
@@ -603,6 +642,8 @@ uv==0.9.11
     # via -r requirements/requirements-dev.in
 virtualenv==20.35.4
     # via pre-commit
+watchdog==6.0.0
+    # via streamlit
 watchfiles==1.1.1
     # via -r requirements/requirements.in
 wcwidth==0.2.14

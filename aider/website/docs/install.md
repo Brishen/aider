@@ -58,9 +58,9 @@ python -m pip install uv  # If you need to install uv
 uv tool install --force --python python3.12 --with pip aider-chat@latest
 ```
 
-This will install uv using your existing python version 3.8-3.13,
+This will install uv using your existing python version 3.10-3.14,
 and use it to install aider.
-If needed, 
+If needed,
 uv will automatically install a separate python 3.12 to use with aider.
 
 Also see the
@@ -75,7 +75,7 @@ python -m pip install pipx  # If you need to install pipx
 pipx install aider-chat
 ```
 
-You can use pipx to install aider with python versions 3.9-3.12.
+You can use pipx to install aider with python versions 3.10-3.14.
 
 Also see the
 [docs on other methods for installing pipx itself](https://pipx.pypa.io/stable/installation/).
@@ -93,7 +93,7 @@ using a
 to keep aider's dependencies separated.
 
 
-You can use pip to install aider with python versions 3.9-3.12.
+You can use pip to install aider with python versions 3.10-3.14.
 
 ```bash
 python -m pip install -U --upgrade-strategy only-if-needed aider-chat
