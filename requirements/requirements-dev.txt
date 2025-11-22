@@ -53,7 +53,7 @@ fonttools==4.60.1
     # via
     #   -c requirements/common-constraints.txt
     #   matplotlib
-google-api-core[grpc]==2.28.1
+google-api-core[grpc]==2.25.2
     # via
     #   -c requirements/common-constraints.txt
     #   google-cloud-bigquery

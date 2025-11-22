@@ -142,8 +142,6 @@ tornado==6.5.2
 typing-extensions==4.15.0
     # via
     #   -c requirements/common-constraints.txt
-    #   altair
-    #   referencing
     #   streamlit
 tzdata==2025.2
     # via
@@ -153,3 +151,7 @@ urllib3==2.5.0
     # via
     #   -c requirements/common-constraints.txt
     #   requests
+watchdog==6.0.0
+    # via
+    #   -c requirements/common-constraints.txt
+    #   streamlit

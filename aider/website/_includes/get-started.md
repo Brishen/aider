@@ -1,5 +1,5 @@
 
-If you already have python 3.8-3.13 installed, you can get started quickly like this.
+If you already have python 3.10-3.14 installed, you can get started quickly like this.
 
 First, install aider:
 
